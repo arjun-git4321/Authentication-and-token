@@ -8,6 +8,7 @@ require("dotenv").config();
 //signup route handler
 exports.signup = async (req,res) => {
     try{
+        
         //get data
         const {name, email, password, role} = req.body;
         //check if user already exist
